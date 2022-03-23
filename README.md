@@ -1,14 +1,15 @@
-# prosciutto-crudo
+# prosciutto-CRUDo
+
 Simple Admin Forms and tables using Chakra UI.
 
-## Data display
+## Docs
 
-### Generic objects table
+Docs are available on its website
 
-## Forms
+[https://prosciutto-crudo.pages.dev](https://prosciutto-crudo.pages.dev)
 
-### Rich Content Field
-### Multiple Relation Field
-### Relation Field
-### Object Field
-### Mutiple Object Field
+## Installation
+
+```sh
+npm i prosciutto-crudo
+```

@@ -1,0 +1,28 @@
+{
+  "name": "prosciutto-crudo-main",
+  "version": "0.0.0",
+  "description": "Admin forms and tables using Chakra UI. Easy enough to create robust admin panels in almost no time",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aexol-studio/prosciutto-crudo.git"
+  },
+  "keywords": [
+    "crud",
+    "admin",
+    "graphql",
+    "form"
+  ],
+  "workspaces": [
+    "./packages/web",
+    "./packages/sandbox"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aexol-studio/prosciutto-crudo/issues"
+  },
+  "homepage": "https://github.com/aexol-studio/prosciutto-crudo#readme",
+  "dependencies": {}
+}
