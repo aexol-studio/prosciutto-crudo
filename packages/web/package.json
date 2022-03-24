@@ -1,6 +1,6 @@
 {
     "name": "prosciutto-crudo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Admin forms and tables using Chakra UI. Easy enough to create robust admin panel",
     "main": "lib/index.js",
     "scripts": {
@@ -11,17 +11,20 @@
         "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
     },
     "types": "lib/index.d.ts",
-    "private": "false",
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/aexol-studio/ts-react-lib-starter.git"
+        "url": "git+https://github.com/aexol-studio/prosciutto-crudo.git"
     },
     "author": "Aexol <aexol@aexol.com> (http://aexol.com)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/aexol-studio/ts-react-lib-starter/issues"
+        "url": "https://github.com/aexol-studio/rosciutto-crudo/issues"
     },
-    "homepage": "https://github.com/aexol-studio/ts-react-lib-starter#readme",
+    "homepage": "https://prosciutto-crudo.pages.dev",
     "devDependencies": {
         "@chakra-ui/react": "^1.8.6",
         "@emotion/css": "^11.7.1",
