@@ -2,7 +2,7 @@ import Logo from '@/src/assets/svg/Logo';
 import { Layout } from '@/src/layouts';
 import MultipleRelationField, { script as multipleRelationFieldScript } from '@/src/samples/MultipleRelationField';
 import RichTextField, { script as richTextFieldScript } from '@/src/samples/RichTextField';
-import { VStack, Container, Heading, Text, Box, Code } from '@chakra-ui/react';
+import { VStack, Container, Heading, Text, Box, Code, Link } from '@chakra-ui/react';
 import { InferGetStaticPropsType } from 'next';
 import 'highlight.js/styles/default.css';
 import GenericTable, { script as genericTableScript } from '@/src/samples/GenericTable';
@@ -25,8 +25,21 @@ const HomePage = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
 
                     <VStack alignItems="stretch" spacing="12">
                         <VStack alignItems="start">
-                            <Heading size="sm">Installation</Heading>
+                            <Heading size="sm">Getting Started</Heading>
+                            <Text>
+                                Install <Link href="https://chakra-ui.com/">Chakra UI</Link>
+                            </Text>
+                            <Heading size="sm">Install peer deps</Heading>
+                            <Code>
+                                npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
+                                react-icons
+                            </Code>
+                            <Heading size="sm">Then install prosciutto</Heading>
                             <Code>{`npm install prosciutto-crudo`}</Code>
+                            <Heading size="sm">
+                                Then wrap your app in <Code>ChakraProvider</Code>
+                            </Heading>
+                            <Text>Use!</Text>
                         </VStack>
                         <GenericTable code={props.genericTable} />
                         <RichTextField code={props.richContentField} />
